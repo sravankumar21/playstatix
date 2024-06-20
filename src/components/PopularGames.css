@@ -1,0 +1,31 @@
+.segment {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .segment-title {
+    color: #333;
+    padding-left: 100px;
+    margin-top: 130px;
+  }
+  
+  .segment-content p {
+    color: #666;
+  }
+  
+  .segment-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    max-width: 70%;
+    max-height: 340px; /* Adjust as needed */
+    margin-left: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 5vh;
+  }
+  
+  .segment-image:hover {
+    transform: scale(1.05);
+  }
+  
+  

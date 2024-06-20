@@ -1,0 +1,44 @@
+.supporter-slider {
+    margin-top: -4rem; /* Adjust margin as needed */
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 6rem 0;
+    background: #fff;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    width: fit-content; /* Ensures inline layout */
+    animation: slide 20s linear infinite; /* Continuous sliding */
+  }
+  
+  .logo-item {
+    display: inline-block;
+    text-align: center; /* Center the rank below the image */
+  }
+  
+  .logos-slide img {
+    height: 120px; /* Fixed height for all images */
+    width: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Margin between images */
+  }
+  
+  .logo-rank {
+    font-family: 'Arial, sans-serif'; 
+    font-size: 1.5rem; /* Adjust font size for ranks */
+    margin-top: 10px; /* Space between image and text */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(calc(-50% - 20px)); /* Move all images one full slide to the left */
+    }
+  }
+  
